@@ -1,6 +1,3 @@
-library(tidyr)
-a <- c(NA,4842,NA,4842,4842)
-a <- as.data.frame(a)
-a$b <- c("a","b","c","d","e")
-a$c <- c(10,34,54,34,65)
-a <- drop_na(a)
+library(here)
+here()
+
